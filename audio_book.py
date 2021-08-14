@@ -5,5 +5,5 @@ book = open('Data structures using c.pdf','rb')
 reader=PyPDF2.PdfFileReader(book)
 pages = reader.numPages
 print(pages)
-speaker.say("patrl londu h tu")
+speaker.say("hello everyone")
 speaker.runAndWait()
